@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Writing Zeppelin Interpreter</title>
+    <meta name="description" content="">
+    <meta name="author" content="DataSwarm">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/themes/zeppelin/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/themes/zeppelin/css/style.css?body=1" rel="stylesheet" type="text/css">
+    <link href="/assets/themes/zeppelin/css/syntax.css" rel="stylesheet"  type="text/css" media="screen" /> 
+    <!-- Le fav and touch icons -->
+    <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+
+    <!-- atom & rss feed -->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+  </head>
+
+  <body>
+    
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">
+            DataSwarm
+          </a>
+        </div>
+        <nav class="navbar-collapse collapse" role="navigation">
+          <ul class="nav navbar-nav">
+            
+            
+            
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+
+
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            
+            
+            
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+
+
+          </ul>
+        </nav><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+
+
+
+    <div class="container">
+      
+<!--<div class="hero-unit Writing Zeppelin Interpreter">
+  <h1></h1>
+</div>
+-->
+
+<div class="row">
+  <div class="col-md-12">
+    <h3>What is Zeppelin Interpreter</h3>
+
+<p>Zeppelin Interpreter is a language backend. For example to use scala code in Zeppelin, you need scala interpreter.
+Every Interpreter belongs to an InterpreterGroup. InterpreterGroup is a unit of start/stop interpreter.
+Interpreters in the same InterpreterGroup can reference each other. For example, SparkSqlInterpreter can reference SparkInterpreter to get SparkContext from it while they&#39;re in the same group. </p>
+
+<p><img class="img-responsive" style="width:50%; border: 1px solid #ecf0f1;" height="auto" src="../../assets/themes/zeppelin/img/interpreter.png" /></p>
+
+<p>Interpreter can be launched either using separate classloader or separate JVM process. Sometimes separate classloader causes problem especially when your interpreter uses reflections or trying to grab standard out/err. In this case, separate JVM process is the option you can select. (by checking &#39;fork&#39; in Interpreter menu, which is default value) When Interpreter is running in separate JVM process, it&#39;s communicating with Zeppelin via thrift.</p>
+
+<h3>Make your own Interpreter</h3>
+
+<p>Creating a new interpreter is quite simple. Just extend <a href="https://github.com/apache/incubator-zeppelin/blob/master/zeppelin-interpreter/src/main/java/org/apache/zeppelin/interpreter/Interpreter.java">org.apache.zeppelin.interpreter</a> abstract class and implement some methods.</p>
+
+<p>You can include org.apache.zeppelin:zeppelin-interpreter:[VERSION] artifact in your build system.</p>
+
+<h3>Install your interpreter binary</h3>
+
+<p>Once you have build your interpreter, you can place your interpreter under directory with all the dependencies.</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">[ZEPPELIN_HOME]/interpreter/[INTERPRETER_NAME]/
+</code></pre></div>
+<h3>Configure your interpreter</h3>
+
+<p>You can configure zeppelin.interpreters property in conf/zeppelin-site.xml
+Property value is comma separated [INTERPRETER<em>CLASS</em>NAME]</p>
+
+<p>for example, </p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;property&gt;
+  &lt;name&gt;zeppelin.interpreters&lt;/name&gt;
+  &lt;value&gt;org.apache.zeppelin.spark.SparkInterpreter,org.apache.zeppelin.spark.PySparkInterpreter,org.apache.zeppelin.spark.SparkSqlInterpreter,org.apache.zeppelin.spark.DepInterpreter,org.apache.zeppelin.markdown.Markdown,org.apache.zeppelin.shell.ShellInterpreter,org.apache.zeppelin.hive.HiveInterpreter,com.me.MyNewInterpreter&lt;/value&gt;
+&lt;/property&gt;
+</code></pre></div>
+<h3>Use your interpreter</h3>
+
+<p>Inside of a notebook, %[INTERPRETER_NAME] directive will call your interpreter.
+Note that the first interpreter configuration in zeppelin.interpreters will be the default one.</p>
+
+<p>for example</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">%myintp
+
+val a = &quot;My interpreter&quot;
+println(a)
+</code></pre></div>
+<h3>Examples</h3>
+
+<p>Check some interpreters shipped by default.</p>
+
+<ul>
+<li><a href="https://github.com/apache/incubator-zeppelin/tree/master/spark">spark</a></li>
+<li><a href="https://github.com/apache/incubator-zeppelin/tree/master/markdown">markdown</a></li>
+<li><a href="https://github.com/apache/incubator-zeppelin/tree/master/shell">shell</a></li>
+<li><a href="https://github.com/apache/incubator-zeppelin/tree/master/hive">hive</a></li>
+</ul>
+
+  </div>
+</div>
+
+
+      <hr>
+      <footer>
+        <!-- <p>&copy; 2015 DataSwarm</p>-->
+      </footer>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    
+    <script src="/assets/themes/zeppelin/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
