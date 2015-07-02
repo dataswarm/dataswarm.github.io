@@ -1,6 +1,6 @@
 
 http://dataswarm.es/atom.xml
-http://dataswarm.es/community.html
+http://dataswarm.es/contact.html
 http://dataswarm.es/docs/display.html
 http://dataswarm.es/download.html
 http://dataswarm.es/docs/dynamicform.html

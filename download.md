@@ -8,7 +8,7 @@ group:
 
 ### Build from source
 
-Check [install](./docs/install/install.html).
+Check [install](./install.html).
 
 
 ### Current binary release

@@ -81,7 +81,17 @@ tagline: Less Development, More analysis!
     
     </div>
 
-    <div role="tabpanel" class="tab-pane" id="versions">...</div>
+    <div role="tabpanel" class="tab-pane" id="versions">
+      <div class="col-md-5">
+        <h2>Control versions</h2>
+
+        DataSwarm provides version control using gist. You can keep adding reviews and switch between they.
+
+      </div>
+      <br />
+      <div class="col-md-7" style="margin-top: 15px;"><img class="img-responsive" style="border: 1px solid #ecf0f1;" height="auto" src="assets/themes/zeppelin/img/screenshots/gist.png" /></div>
+
+    </div>
     <div role="tabpanel" class="tab-pane" id="visualization">
       <br />
       <h2>Data visualization</h2>
