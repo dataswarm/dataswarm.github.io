@@ -17,14 +17,14 @@ However, if output contains some magic keyword, Zeppelin automatically formattin
 
 If output has no magic keyword provided Zeppelin print the output in text.
 
-<img src="../assets/themes/zeppelin/img/screenshots/display_text.png" />
+<img src="../assets/themes/dataswarm/img/screenshots/display_text.png" />
 
 <br />
 #### Display as Html
 
 If output starts with %html, it is interpreted as an html code.
 
-<img src="../assets/themes/zeppelin/img/screenshots/display_html.png" />
+<img src="../assets/themes/dataswarm/img/screenshots/display_html.png" />
 
 <br />
 #### Display as Table, Chart
@@ -33,15 +33,15 @@ If output starts with %table, it is interpreted as a table. Table can be seen as
 
 Output's format should be, row separated by '\n' (newline) and column separated by '\t' (tab). First row is header.
 
-<img src="../assets/themes/zeppelin/img/screenshots/display_table.png" />
+<img src="../assets/themes/dataswarm/img/screenshots/display_table.png" />
 
 If table contents start with %html, it is interpreted as an HTML.
 
-<img src="../assets/themes/zeppelin/img/screenshots/display_table_html.png" />
+<img src="../assets/themes/dataswarm/img/screenshots/display_table_html.png" />
 
 <br />
 #### Display as Image
 
 If output starts with %img, it is interpreted as base64 encoded image.
 
-<img src="../assets/themes/zeppelin/img/screenshots/display_image.png" />
+<img src="../assets/themes/dataswarm/img/screenshots/display_image.png" />

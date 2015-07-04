@@ -1,12 +1,13 @@
 
 http://dataswarm.es/atom.xml
+http://dataswarm.es/community.html
 http://dataswarm.es/contact.html
 http://dataswarm.es/docs/display.html
 http://dataswarm.es/download.html
 http://dataswarm.es/docs/dynamicform.html
 http://dataswarm.es/docs/development/howtocontribute.html
-http://dataswarm.es/docs/index.html
 http://dataswarm.es/index.html
+http://dataswarm.es/docs/index.html
 http://dataswarm.es/docs/install/install.html
 http://dataswarm.es/rss.xml
 http://dataswarm.es/screenshots.html

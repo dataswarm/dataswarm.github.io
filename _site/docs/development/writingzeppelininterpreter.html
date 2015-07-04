@@ -16,9 +16,9 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="/assets/themes/zeppelin/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="/assets/themes/zeppelin/css/style.css?body=1" rel="stylesheet" type="text/css">
-    <link href="/assets/themes/zeppelin/css/syntax.css" rel="stylesheet"  type="text/css" media="screen" /> 
+    <link href="/assets/themes/dataswarm/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/themes/dataswarm/css/style.css?body=1" rel="stylesheet" type="text/css">
+    <link href="/assets/themes/dataswarm/css/syntax.css" rel="stylesheet"  type="text/css" media="screen" /> 
     <!-- Le fav and touch icons -->
     <!-- Update these with your own images
     <link rel="shortcut icon" href="images/favicon.ico">
@@ -54,6 +54,10 @@
             
 
 
+  
+    
+      
+    
   
     
       
@@ -186,6 +190,10 @@
       
     
   
+    
+      
+    
+  
 
 
 
@@ -212,7 +220,7 @@
 Every Interpreter belongs to an InterpreterGroup. InterpreterGroup is a unit of start/stop interpreter.
 Interpreters in the same InterpreterGroup can reference each other. For example, SparkSqlInterpreter can reference SparkInterpreter to get SparkContext from it while they&#39;re in the same group. </p>
 
-<p><img class="img-responsive" style="width:50%; border: 1px solid #ecf0f1;" height="auto" src="../../assets/themes/zeppelin/img/interpreter.png" /></p>
+<p><img class="img-responsive" style="width:50%; border: 1px solid #ecf0f1;" height="auto" src="../../assets/themes/dataswarm/img/interpreter.png" /></p>
 
 <p>Interpreter can be launched either using separate classloader or separate JVM process. Sometimes separate classloader causes problem especially when your interpreter uses reflections or trying to grab standard out/err. In this case, separate JVM process is the option you can select. (by checking &#39;fork&#39; in Interpreter menu, which is default value) When Interpreter is running in separate JVM process, it&#39;s communicating with Zeppelin via thrift.</p>
 
@@ -273,7 +281,7 @@ println(a)
     
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     
-    <script src="/assets/themes/zeppelin/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/assets/themes/dataswarm/bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
 
