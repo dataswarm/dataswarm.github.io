@@ -29,9 +29,16 @@
     <!-- atom & rss feed -->
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+      <style>
+      .scroll-area {
+      height: 1000px;
+      position: relative;
+      }
+  </style>
   </head>
 
-  <body>
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     
     {% include themes/dataswarm/_navigation.html %}
 
@@ -39,7 +46,7 @@
       {{ content }}
       <hr>
       <footer>
-        <!-- <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>-->
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
       </footer>
     </div>
 
@@ -47,5 +54,9 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     
     <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="{{ ASSET_PATH }}/js/jquery.easing.min.js"></script>
+    <script src="{{ ASSET_PATH }}/js/scrolling-nav.js"></script>
   </body>
 </html>

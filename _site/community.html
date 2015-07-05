@@ -30,177 +30,43 @@
     <!-- atom & rss feed -->
     <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+      <style>
+      .scroll-area {
+      height: 1000px;
+      position: relative;
+      }
+  </style>
   </head>
 
-  <body>
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     
-        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="/">
-            DataSwarm
-          </a>
+    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation"> 
+        <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">DataSwarm</a>
+            </div>
+          
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a class="page-scroll" href="#page-top">Home</a></li>
+                    <li><a class="page-scroll" href="#notebook">Notebook</a></li>
+                    <li><a  class="page-scroll" href="#infrastructure">Infrastructure</a></li>
+                    <li><a class="page-scroll" href="#language">Language</a></li>
+                    <li><a class="page-scroll" href="#versions">Versions</a></li>
+                    <li><a class="page-scroll" href="#visualization">Visualization</a></li>
+                </ul>
+            </div>
         </div>
-        <nav class="navbar-collapse collapse" role="navigation">
-          <ul class="nav navbar-nav">
-            
-            
-            
-
-
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-
-
-
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            
-            
-            
-
-
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-    
-      
-    
-  
-
-
-
-          </ul>
-        </nav><!--/.navbar-collapse -->
-      </div>
-    </div>
+    </nav>
 
 
 
@@ -234,7 +100,7 @@
 
       <hr>
       <footer>
-        <!-- <p>&copy; 2015 DataSwarm</p>-->
+        <p>&copy; 2015 DataSwarm</p>
       </footer>
     </div>
 
@@ -242,6 +108,10 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     
     <script src="/assets/themes/dataswarm/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="/assets/themes/dataswarm/js/jquery.easing.min.js"></script>
+    <script src="/assets/themes/dataswarm/js/scrolling-nav.js"></script>
   </body>
 </html>
 
