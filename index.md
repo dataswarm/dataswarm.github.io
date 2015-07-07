@@ -14,9 +14,9 @@ tagline: Less Development, More analysis!
               <div class="col-lg-12">
                   <img class="img-responsive" src="/assets/themes/dataswarm/img/profile.png" alt="">
                   <div class="intro-text">
-                      <span class="name">Start DataSwarm</span>
-                      <hr class="star-light">
-                      <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                      <span class="name">DataSwarm</span>
+                      <hr class="star-light"> </hr>
+                      <span class="skills">A web-based notebook for big data</span>
                   </div>
               </div>
           </div>
@@ -27,7 +27,7 @@ tagline: Less Development, More analysis!
       <div class="container">
           <div class="row">
               <div class="col-lg-12 text-center">
-                  <h3>Portfolio</h3>
+                  <h3>Features</h3>
                   <hr class="star-primary">
               </div>
           </div>
@@ -36,7 +36,7 @@ tagline: Less Development, More analysis!
                   <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                       <div class="caption">
                           <div class="caption-content">
-                              <i>Una breve descripcion</i>
+                              <i>Notebook</i>
                           </div>
                       </div>
                       <img src="assets/themes/dataswarm/img/screenshots/chart.png" class="img-responsive" alt="">
@@ -46,17 +46,17 @@ tagline: Less Development, More analysis!
                   <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                       <div class="caption">
                           <div class="caption-content">
-                              <i>Una breve descripcion</i>
+                              <i>Infraestructure</i>
                           </div>
                       </div>
-                      <img src="/assets/themes/dataswarm/img/portfolio/cake.png" class="img-responsive" alt="">
+                      <img src="/assets/themes/dataswarm/img/screenshots/cluster.png" class="img-responsive" alt="">
                   </a>
               </div>
               <div class="col-sm-4 portfolio-item">
                   <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                       <div class="caption">
                           <div class="caption-content">
-                              <i>Una breve descripcion</i>
+                              <i>Interpreters</i>
                           </div>
                       </div>
                       <img src="/assets/themes/dataswarm/img/portfolio/circus.png" class="img-responsive" alt="">
@@ -66,7 +66,7 @@ tagline: Less Development, More analysis!
                   <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                       <div class="caption">
                           <div class="caption-content">
-                              <i>Una breve descripcion</i>
+                              <i>Versions Control</i>
                           </div>
                       </div>
                       <img src="/assets/themes/dataswarm/img/portfolio/game.png" class="img-responsive" alt="">
@@ -76,10 +76,10 @@ tagline: Less Development, More analysis!
                   <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                       <div class="caption">
                           <div class="caption-content">
-                              <i>Una breve descripcion</i>
+                              <i>Workflows</i>
                           </div>
                       </div>
-                      <img src="/assets/themes/dataswarm/img/portfolio/safe.png" class="img-responsive" alt="">
+                      <img src="/assets/themes/dataswarm/img/luigi.png" class="img-responsive" alt="">
                   </a>
               </div>
               <div class="col-sm-4 portfolio-item">
@@ -224,24 +224,10 @@ tagline: Less Development, More analysis!
               <div class="row">
                   <div class="col-lg-8 col-lg-offset-2">
                       <div class="modal-body">
-                          <h2>Project Title</h2>
+                          <h2>DataSwarm Notebook</h2>
                           <hr class="star-primary">
-                          <img src="assets/themes/dataswarm/img/screenshots/chart.png" class="img-responsive img-centered" alt="">
-                          <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https:/sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                          <ul class="list-inline item-details">
-                              <li>Client:
-                                  <strong><a href="http:/startbootstrap.com">Start Bootstrap</a>
-                                  </strong>
-                              </li>
-                              <li>Date:
-                                  <strong><a href="http:/startbootstrap.com">April 2014</a>
-                                  </strong>
-                              </li>
-                              <li>Service:
-                                  <strong><a href="http:/startbootstrap.com">Web Development</a>
-                                  </strong>
-                              </li>
-                          </ul>
+                          <p>This is an multipurpose area: allows data scientists to perform analysis and proof of concepts quickly. They can also share results and save them for reuse. It is based on <a target="_black" href="https://zeppelin.incubator.apache.org/">Zeppelin Notebook</a>.</p>
+                          <img src="assets/themes/dataswarm/img/screenshots/notebook.png" class="img-responsive img-centered" alt="">
                           <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                       </div>
                   </div>
@@ -263,22 +249,8 @@ tagline: Less Development, More analysis!
                       <div class="modal-body">
                           <h2>Project Title</h2>
                           <hr class="star-primary">
-                          <img src="/assets/themes/dataswarm/img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                          <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https:/sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                          <ul class="list-inline item-details">
-                              <li>Client:
-                                  <strong><a href="http:/startbootstrap.com">Start Bootstrap</a>
-                                  </strong>
-                              </li>
-                              <li>Date:
-                                  <strong><a href="http:/startbootstrap.com">April 2014</a>
-                                  </strong>
-                              </li>
-                              <li>Service:
-                                  <strong><a href="http:/startbootstrap.com">Web Development</a>
-                                  </strong>
-                              </li>
-                          </ul>
+                          <p>DataSwarm allows create, resize and remove clusters.</p>
+                          <img src="/assets/themes/dataswarm/img/screenshots/cluster.png" class="img-responsive img-centered" alt="">
                           <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                       </div>
                   </div>
@@ -300,7 +272,7 @@ tagline: Less Development, More analysis!
                       <div class="modal-body">
                           <h2>Project Title</h2>
                           <hr class="star-primary">
-                          <img src="/assets/themes/dataswarm/img/portfolio/circus.png" class="img-responsive img-centered" alt="">
+                          <img src="/assets/themes/dataswarm/img/screenshots/cluster.png" class="img-responsive img-centered" alt="">
                           <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https:/sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                           <ul class="list-inline item-details">
                               <li>Client:
@@ -335,24 +307,10 @@ tagline: Less Development, More analysis!
               <div class="row">
                   <div class="col-lg-8 col-lg-offset-2">
                       <div class="modal-body">
-                          <h2>Project Title</h2>
+                          <h2>Versions Control</h2>
                           <hr class="star-primary">
-                          <img src="/assets/themes/dataswarm/img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                          <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https:/sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                          <ul class="list-inline item-details">
-                              <li>Client:
-                                  <strong><a href="http:/startbootstrap.com">Start Bootstrap</a>
-                                  </strong>
-                              </li>
-                              <li>Date:
-                                  <strong><a href="http:/startbootstrap.com">April 2014</a>
-                                  </strong>
-                              </li>
-                              <li>Service:
-                                  <strong><a href="http:/startbootstrap.com">Web Development</a>
-                                  </strong>
-                              </li>
-                          </ul>
+                          <p>Track your notebooks versions. Socialice (or not) your code, but has full control of it.</p>
+                          <img src="/assets/themes/dataswarm/img/screenshots/gist.png" class="img-responsive img-centered" alt="">
                           <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                       </div>
                   </div>

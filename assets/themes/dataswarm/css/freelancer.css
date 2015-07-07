@@ -79,7 +79,7 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
+    color:#000000;
     background: #fff;
 }
 
@@ -283,6 +283,12 @@ section.success a.active {
     border: solid 2px #fff;
     color: #4CAF50;
     background: #fff;
+}
+
+.btn-success {
+  color: #ffffff;
+  background-color: #4CAF50;
+  border-color: #4CAF50;
 }
 
 .floating-label-form-group {

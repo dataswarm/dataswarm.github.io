@@ -1,5 +1,7 @@
 
 http://dataswarm.io/atom.xml
+http://dataswarm.io/community.html
+http://dataswarm.io/contact.html
 http://dataswarm.io/docs/display.html
 http://dataswarm.io/download.html
 http://dataswarm.io/docs/dynamicform.html
