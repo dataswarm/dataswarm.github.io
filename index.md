@@ -7,206 +7,432 @@ tagline: Less Development, More analysis!
 
 <div>
 
-  <!-- Tab panes -->
- <div id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-    <!-- Principal tab -->
-    <section id="page-top" class="contact-section">
+  <!-- Header -->
+  <header>
       <div class="container">
-      <div class="row">
-      <div class="col-lg-12">
-        <h1>Making Big Data simple</h1>
-        <p style="font-size:16px; color:#555555;font-style:italic;margin-bottom: 15px;">
-          A web-based notebook that enables interactive data analytics. <br/>
-        </p>
-        <ul style="list-style-type: none;padding-left:10px;" >
-          <li style="font-size:20px; margin: 5px;">
-            <img class="glyphicon" src="assets/themes/dataswarm/img/glyphicons/png/glyphicons-528-database.png"/> 
-            Import data from diferent sources
-          </li>
-          <li style="font-size:20px; margin: 5px;">
-            <img class="glyphicon" src="assets/themes/dataswarm/img/glyphicons/png/glyphicons-413-cloud-plus.png"/>
-            Manage your own cluster on AWS
-          </li>
-          <li style="font-size:20px; margin: 5px;">
-            <img class="glyphicon" src="assets/themes/dataswarm/img/glyphicons/png/glyphicons-269-keyboard-wireless.png"/>
-            Write your code in several languages
-          </li>
-          <li style="font-size:20px; margin: 5px;">
-            <img class="glyphicon" src="assets/themes/dataswarm/img/glyphicons/png/glyphicons-40-notes.png"/>
-            Create web-based notebooks that enables interactive data analytics
-          </li>
-          <li style="font-size:20px; margin: 5px;">
-            <img class="glyphicon" src="assets/themes/dataswarm/img/glyphicons/png/glyphicons-42-charts.png"/>
-            Visualize your data
-          </li>
-          <li style="font-size:20px; margin: 5px;">
-            <img class="glyphicon" src="assets/themes/dataswarm/img/glyphicons/png/glyphicons-423-git-branch.png"/>
-            Stores versions of your notebooks
-          </li>
-          <li style="font-size:20px; margin: 5px;">
-            <img class="glyphicon" src="assets/themes/dataswarm/img/glyphicons/png/glyphicons-60-cargo.png"/>
-            Save notebooks as jobs
-          </li>
-          <li style="font-size:20px; margin: 5px;">
-            <img class="glyphicon" src="assets/themes/dataswarm/img/glyphicons/png/glyphicons-509-flowchart.png"/>
-            Create workflows
-          </li>          
-        </ul>
-        </div>
-        </div>
-      </div>
-    </setion>
-
-    <!-- Notebook tab -->
-    <section id="notebook" class="contact-section">
-      <div class="container">
-      <div class="row">
-      <div class="col-lg-12">
-        <h1>Multi-purpose Notebook</h1>
-        <p style="font-size:16px; color:#555555;font-style:italic;margin-bottom: 15px;">
-          DataSwarm notebook enables interactive data analytics
-        </p>
-      </div>
-      <div class="col-md-12">
-        <img class="img-responsive" style="border: 1px solid #ecf0f1;" height="auto" src="assets/themes/dataswarm/img/screenshots/chart.png" />
-      </div>
-
-      <div class="col-md-12">
-        <h2>Data visualization</h2>
-        <p style="font-size:16px; color:#555555;margin-bottom: 15px;">
-          Some basic charts are already included in DataSwarm. Visualizations are not limited to SparkSQL's query, any output from any language backend can be recognized and visualized.
-        </p>
-        <div class="row">
-          <div class="col-md-6">
-            <img class="img-responsive" src="./assets/themes/dataswarm/img/graph1.png" />
+          <div class="row">
+              <div class="col-lg-12">
+                  <img class="img-responsive" src="/assets/themes/dataswarm/img/profile.png" alt="">
+                  <div class="intro-text">
+                      <span class="name">Start DataSwarm</span>
+                      <hr class="star-light">
+                      <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                  </div>
+              </div>
           </div>
-          <div class="col-md-6">
-            <img class="img-responsive" src="./assets/themes/dataswarm/img/graph2.png" />
+      </div>
+  </header>
+<!-- Portfolio Grid Section -->
+  <section id="portfolio">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h3>Portfolio</h3>
+                  <hr class="star-primary">
+              </div>
           </div>
-        </div>
-        <h3>Pivot chart</h3>
-        <p style="font-size:16px; color:#555555;margin-bottom: 15px;">      
-          With simple drag and drop DataSwarm aggeregates the values and display them in pivot chart. You can easily create chart with multiple aggregated values including sum, count, average, min, max.
-        </p>
-        <div class="row">
-          <div class="col-md-12">
-            <img class="img-responsive" src="./assets/themes/dataswarm/img/screenshots/pivot.png" />
+          <div class="row">
+              <div class="col-sm-4 portfolio-item">
+                  <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                      <div class="caption">
+                          <div class="caption-content">
+                              <i>Una breve descripcion</i>
+                          </div>
+                      </div>
+                      <img src="assets/themes/dataswarm/img/screenshots/chart.png" class="img-responsive" alt="">
+                  </a>
+              </div>
+              <div class="col-sm-4 portfolio-item">
+                  <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                      <div class="caption">
+                          <div class="caption-content">
+                              <i>Una breve descripcion</i>
+                          </div>
+                      </div>
+                      <img src="/assets/themes/dataswarm/img/portfolio/cake.png" class="img-responsive" alt="">
+                  </a>
+              </div>
+              <div class="col-sm-4 portfolio-item">
+                  <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                      <div class="caption">
+                          <div class="caption-content">
+                              <i>Una breve descripcion</i>
+                          </div>
+                      </div>
+                      <img src="/assets/themes/dataswarm/img/portfolio/circus.png" class="img-responsive" alt="">
+                  </a>
+              </div>
+              <div class="col-sm-4 portfolio-item">
+                  <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                      <div class="caption">
+                          <div class="caption-content">
+                              <i>Una breve descripcion</i>
+                          </div>
+                      </div>
+                      <img src="/assets/themes/dataswarm/img/portfolio/game.png" class="img-responsive" alt="">
+                  </a>
+              </div>
+              <div class="col-sm-4 portfolio-item">
+                  <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                      <div class="caption">
+                          <div class="caption-content">
+                              <i>Una breve descripcion</i>
+                          </div>
+                      </div>
+                      <img src="/assets/themes/dataswarm/img/portfolio/safe.png" class="img-responsive" alt="">
+                  </a>
+              </div>
+              <div class="col-sm-4 portfolio-item">
+                  <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                      <div class="caption">
+                          <div class="caption-content">
+                              <i>Una breve descripcion</i>
+                          </div>
+                      </div>
+                      <img src="/assets/themes/dataswarm/img/portfolio/submarine.png" class="img-responsive" alt="">
+                  </a>
+              </div>
           </div>
-        </div>
       </div>
-      </div>
-      </div>
-    </setion>
+  </section>
 
-    <!-- Infraestructure tab -->
-    <section id="infrastructure" class="contact-section">
+  <!-- About Section -->
+  <section class="success" id="about">
       <div class="container">
-      <div class="row">
-      <div class="col-lg-12">
-        <h1>Infrastructure</h1>
-        <p style="font-size:16px; color:#555555;font-style:italic;margin-bottom: 15px;">
-          Provide infrastructure was never easier. DataSwarm allows the manipulation of infrastructure for massive data analysis. You can create, resize or remove clusters.
-        </p>
-      <div class="col-md-4" style="font-size:50px">
-        <img class="glyphicon" src="assets/themes/dataswarm/img/spark.png"/> 
-        <span style="font-size:20px">Apache Spark </span>
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h2>About</h2>
+                  <hr class="star-light">
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-4 col-lg-offset-2">
+                  <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+              </div>
+              <div class="col-lg-4">
+                  <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+              </div>
+              <div class="col-lg-8 col-lg-offset-2 text-center">
+                  <a href="#" class="btn btn-lg btn-outline">
+                      <i class="fa fa-download"></i> Download Theme
+                  </a>
+              </div>
+          </div>
       </div>
-      <div class="col-md-4" style="font-size:50px">
-        <img class="glyphicon" src="assets/themes/dataswarm/img/hadoop.png"/> 
-        <span style="font-size:20px"> Apache Hadoop </span>
-      </div>
-      <div class="col-md-4" style="font-size:50px">
-        <img class="glyphicon" src="assets/themes/dataswarm/img/redshift.svg"/> 
-        <span style="font-size:20px"> AWS Redshift </span>
-      </div>
-      <br/>
-      <div class="col-md-12">
-        <img class="img-responsive" style="border: 1px solid #ecf0f1;" height="auto" src="assets/themes/dataswarm/img/screenshots/cluster.png" />
-      </div>
-    </div>
-    </div>
-    </div>
-    </setion>
+  </section>
 
-    <!-- Languages tab -->
-    <section id="language" class="contact-section">
+  <!-- Contact Section -->
+  <section id="contact">
       <div class="container">
-      <div class="row">
-      <div class="col-lg-12">
-        <h1>Connectors</h1>
-        <p style="font-size:16px; color:#555555;font-style:italic;margin-bottom: 15px;">
-          Many connectors are available
-        </p>
-      <div class="col-md-6">
-        <ul style="list-style-type: none;padding-left:10px;" >
-          <li style="font-size:20px; margin: 5px;"><img class="glyphicon" src="assets/themes/dataswarm/img/spark.png"/> Apache Spark</li>
-          <li style="font-size:20px; margin: 5px;"><img class="glyphicon" src="assets/themes/dataswarm/img/hadoop.png"/> Apache Hive</li>
-          <li style="font-size:20px; margin: 5px;"><img class="glyphicon" src="assets/themes/dataswarm/img/redshift.svg" /></span> Redshift</li>
-          <li style="font-size:20px; margin: 5px;"><img class="glyphicon" src="assets/themes/dataswarm/img/luigi.png" /></span> Luigi</li>
-        </ul>
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h2>Contact Me</h2>
+                  <hr class="star-primary">
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                  <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                  <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                  <form action="https://getsimpleform.com/messages?form_api_token=9be831dbaa768d762c67b4c07b3b3bfc" method="post">
+              <div class="form-group">
+                <label for="recipient-name" class="control-label">Name:</label>
+                <input type="text" name="name" class="form-control" id="recipient-name">
+              </div>
+              <div class="form-group">
+                <label for="message-text" class="control-label">Message:</label>
+                <textarea class="form-control" id="message-text" name="message"></textarea>
+              </div>
+              <div class="form-group">
+                <label class="control-label"></label>
+                <div class="">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  <button type="submit" class="btn btn-success" >Send <span class=""></span></button>
+                </div>
+              </div>
+          
+            </form>
+              </div>
+          </div>
       </div>
-      <div class="col-md-6" style="margin-top: 75px;">
-        </br>
-        <ul style="list-style-type: none;padding-left:10px;" >
-          <li style="font-size:20px; margin: 5px;"><img class="glyphicon" src="assets/themes/dataswarm/img/scala.png" /></span> Scala</li>
-          <li style="font-size:20px; margin: 5px;"><img class="glyphicon" src="assets/themes/dataswarm/img/angular.jpg" /></span> Angular</li>
-          <li style="font-size:20px; margin: 5px;"><img class="glyphicon" src="assets/themes/dataswarm/img/shell.png" /></span> Shell</li>
-          <li style="font-size:20px; margin: 5px;"></span> Comming more</li>
-        </ul>
-      </div>    
-      </div>
-      </div>
-    </setion>
+  </section>
 
-    <!-- Versions tab -->
-    <section id="versions" class="contact-section">
-      <div class="container">
-      <div class="row">
-      <div class="col-lg-12">
-        <h1>Versions control</h1>
-        <p style="font-size:16px; color:#555555;font-style:italic;margin-bottom: 15px;">
-          DataSwarm provides version control using gist. You can keep adding reviews and switch between they
-        </p>
+  <!-- Footer -->
+  <footer class="text-center">
+      <div class="footer-above">
+          <div class="container">
+              <div class="row">
+                  <div class="footer-col col-md-4">
+                      <h3>Location</h3>
+                      <p>Madrid<br>Madrid Spain, CA 28053</p>
+                  </div>
+                  <div class="footer-col col-md-4">
+                      <h3>Around the Web</h3>
+                      <ul class="list-inline">
+                          <li>
+                              <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                          </li>
+                          <li>
+                              <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                          </li>
+                          <li>
+                              <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                          </li>
+                          <li>
+                              <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                          </li>
+                          <li>
+                              <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="footer-col col-md-4">
+                      <h3>About DataSwarm</h3>
+                      <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http:/startbootstrap.com">Start Bootstrap</a>.</p>
+                  </div>
+              </div>
+          </div>
       </div>
-      <br />
-      <div class="col-md-7" style="margin-top: 15px;">
-        <img class="img-responsive" style="border: 1px solid #ecf0f1;" height="auto" src="assets/themes/dataswarm/img/screenshots/gist.png" />
+      <div class="footer-below">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12">
+                      Copyright &copy; DataSwarm 2015
+                  </div>
+              </div>
+          </div>
       </div>
-      </div>
-      </div>
-    </setion>
+  </footer>
 
-    <!--Visualization Tab -->
-    <section id="visualization" class="contact-section">
-    <div class="container">
-    <div class="row">
-    <div class="col-lg-12">
-      <h1>Data visualization</h1>
-      <p style="font-size:16px; color:#555555;margin-bottom: 15px;">
-      Some basic charts are already included in DataSwarm. Visualizations are not limited to SparkSQL's query, any output from any language backend can be recognized and visualized.
-      </p>
-      <div class="row">
-        <div class="col-md-6">
-          <img class="img-responsive" src="./assets/themes/dataswarm/img/graph1.png" />
-        </div>
-        <div class="col-md-6">
-          <img class="img-responsive" src="./assets/themes/dataswarm/img/graph2.png" />
-        </div>
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-top page-scroll visible-xs visible-sm">
+      <a class="btn btn-primary" href="#page-top">
+          <i class="fa fa-chevron-up"></i>
+      </a>
+  </div>
+
+  <!-- Portfolio Modals -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+              <div class="lr">
+                  <div class="rl">
+                  </div>
+              </div>
+          </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                      <div class="modal-body">
+                          <h2>Project Title</h2>
+                          <hr class="star-primary">
+                          <img src="assets/themes/dataswarm/img/screenshots/chart.png" class="img-responsive img-centered" alt="">
+                          <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https:/sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                          <ul class="list-inline item-details">
+                              <li>Client:
+                                  <strong><a href="http:/startbootstrap.com">Start Bootstrap</a>
+                                  </strong>
+                              </li>
+                              <li>Date:
+                                  <strong><a href="http:/startbootstrap.com">April 2014</a>
+                                  </strong>
+                              </li>
+                              <li>Service:
+                                  <strong><a href="http:/startbootstrap.com">Web Development</a>
+                                  </strong>
+                              </li>
+                          </ul>
+                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
       </div>
-      <h3>Pivot chart</h3>
-      <p style="font-size:16px; color:#555555;margin-bottom: 15px;">      
-        With simple drag and drop DataSwarm aggeregates the values and display them in pivot chart. You can easily create chart with multiple aggregated values including sum, count, average, min, max.
-      </p>
-      <div class="row">
-        <div class="col-md-12">
-          <img class="img-responsive" src="./assets/themes/dataswarm/img/screenshots/pivot.png" />
-        </div>
+  </div>
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+              <div class="lr">
+                  <div class="rl">
+                  </div>
+              </div>
+          </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                      <div class="modal-body">
+                          <h2>Project Title</h2>
+                          <hr class="star-primary">
+                          <img src="/assets/themes/dataswarm/img/portfolio/cake.png" class="img-responsive img-centered" alt="">
+                          <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https:/sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                          <ul class="list-inline item-details">
+                              <li>Client:
+                                  <strong><a href="http:/startbootstrap.com">Start Bootstrap</a>
+                                  </strong>
+                              </li>
+                              <li>Date:
+                                  <strong><a href="http:/startbootstrap.com">April 2014</a>
+                                  </strong>
+                              </li>
+                              <li>Service:
+                                  <strong><a href="http:/startbootstrap.com">Web Development</a>
+                                  </strong>
+                              </li>
+                          </ul>
+                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
       </div>
-    </div>
-    </div>
-    </div>
-    </setion>
+  </div>
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+              <div class="lr">
+                  <div class="rl">
+                  </div>
+              </div>
+          </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                      <div class="modal-body">
+                          <h2>Project Title</h2>
+                          <hr class="star-primary">
+                          <img src="/assets/themes/dataswarm/img/portfolio/circus.png" class="img-responsive img-centered" alt="">
+                          <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https:/sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                          <ul class="list-inline item-details">
+                              <li>Client:
+                                  <strong><a href="http:/startbootstrap.com">Start Bootstrap</a>
+                                  </strong>
+                              </li>
+                              <li>Date:
+                                  <strong><a href="http:/startbootstrap.com">April 2014</a>
+                                  </strong>
+                              </li>
+                              <li>Service:
+                                  <strong><a href="http:/startbootstrap.com">Web Development</a>
+                                  </strong>
+                              </li>
+                          </ul>
+                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+              <div class="lr">
+                  <div class="rl">
+                  </div>
+              </div>
+          </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                      <div class="modal-body">
+                          <h2>Project Title</h2>
+                          <hr class="star-primary">
+                          <img src="/assets/themes/dataswarm/img/portfolio/game.png" class="img-responsive img-centered" alt="">
+                          <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https:/sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                          <ul class="list-inline item-details">
+                              <li>Client:
+                                  <strong><a href="http:/startbootstrap.com">Start Bootstrap</a>
+                                  </strong>
+                              </li>
+                              <li>Date:
+                                  <strong><a href="http:/startbootstrap.com">April 2014</a>
+                                  </strong>
+                              </li>
+                              <li>Service:
+                                  <strong><a href="http:/startbootstrap.com">Web Development</a>
+                                  </strong>
+                              </li>
+                          </ul>
+                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+              <div class="lr">
+                  <div class="rl">
+                  </div>
+              </div>
+          </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                      <div class="modal-body">
+                          <h2>Project Title</h2>
+                          <hr class="star-primary">
+                          <img src="/assets/themes/dataswarm/img/portfolio/safe.png" class="img-responsive img-centered" alt="">
+                          <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https:/sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                          <ul class="list-inline item-details">
+                              <li>Client:
+                                  <strong><a href="http:/startbootstrap.com">Start Bootstrap</a>
+                                  </strong>
+                              </li>
+                              <li>Date:
+                                  <strong><a href="http:/startbootstrap.com">April 2014</a>
+                                  </strong>
+                              </li>
+                              <li>Service:
+                                  <strong><a href="http:/startbootstrap.com">Web Development</a>
+                                  </strong>
+                              </li>
+                          </ul>
+                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+              <div class="lr">
+                  <div class="rl">
+                  </div>
+              </div>
+          </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                      <div class="modal-body">
+                          <h2>Project Title</h2>
+                          <hr class="star-primary">
+                          <img src="/assets/themes/dataswarm/img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                          <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https:/sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                          <ul class="list-inline item-details">
+                              <li>Client:
+                                  <strong><a href="http:/startbootstrap.com">Start Bootstrap</a>
+                                  </strong>
+                              </li>
+                              <li>Date:
+                                  <strong><a href="http:/startbootstrap.com">April 2014</a>
+                                  </strong>
+                              </li>
+                              <li>Service:
+                                  <strong><a href="http:/startbootstrap.com">Web Development</a>
+                                  </strong>
+                              </li>
+                          </ul>
+                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
   </div>
 </div>
 
