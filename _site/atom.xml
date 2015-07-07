@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>DataSwarm</title>
- <link href="http://dataswarm.es/" rel="self"/>
- <link href="http://dataswarm.es"/>
- <updated>2015-07-07T09:28:13+02:00</updated>
- <id>http://dataswarm.es</id>
+ <link href="http://dataswarm.io/" rel="self"/>
+ <link href="http://dataswarm.io"/>
+ <updated>2015-07-07T09:31:36+02:00</updated>
+ <id>http://dataswarm.io</id>
  <author>
    <name>DataSwarm</name>
    <email>viktor.manuel.garcia@gmail.com</email>
