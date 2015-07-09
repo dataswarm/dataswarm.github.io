@@ -305,6 +305,12 @@ section.success a.active {
   border-color: #4CAF50;
 }
 
+.btn-primary {
+  color: #ffffff;
+  background-color: #246E27;
+  border-color: #246E27;
+}
+
 .btn-success:hover {
   color: #ffffff;
   background-color: #25922a;

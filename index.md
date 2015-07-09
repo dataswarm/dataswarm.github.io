@@ -16,8 +16,6 @@ tagline: Less Development, More analysis!
     <div class="buttons">
       <a href="https://panel.thethings.io/#/register" title="Create a Free thethings.iO account" alt="Create a Free thethings.iO account" class="btn btn-primary buttons" data-gtme-category="activation" data-gtme-action="click-header" data-gtme-tag="create-account">
         GET STARTED</a>
-      <a id="learn_more_button" href="#learn_more_section" title="Learn more about thethings.iO" alt="Learn More" class="btn btn-primary buttons" data-gtme-category="activation" data-gtme-action="click-header" data-gtme-tag="learn-more">
-        Learn More</a>
     </div>
       </div>
   </header>
@@ -68,7 +66,7 @@ tagline: Less Development, More analysis!
                               <i>Versions Control</i>
                           </div>
                       </div>
-                      <img src="/assets/themes/dataswarm/img/features/github.png" class="img-responsive" alt="">
+                      <img src="/assets/themes/dataswarm/img/features/github1.png" class="img-responsive" alt="">
                   </a>
               </div>
               <div class="col-sm-4 portfolio-item">
