@@ -207,37 +207,31 @@ tagline: Less Development, More analysis!
   </div>
 
   <!-- Portfolio Modals -->
-  <div class="portfolio-modal modal fade" id="feature1" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-              <div class="lr">
-                  <div class="rl">
-                  </div>
+  <div class="modal fade" id="feature1" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header" >
+              <h2>DataSwarm Notebook</h2>
+            </div>
+            <div class="modal-body">
+              <div class="modal-body">
+                  <p>This is a multipurpose area: allows data scientists to perform analysis and proof of concepts quickly. They can also share results and save them for reuse. It is based on <a target="_black" href="https://zeppelin.incubator.apache.org/">Zeppelin Notebook</a>.</p>
+                  <img src="assets/themes/dataswarm/img/screenshots/notebook.png" class="img-responsive img-centered" alt="">
+                  <hr>
+                  <h3>Data visualization</h3>
+                  <p>
+                    Some basic charts are already included in DataSwarm. Visualizations are not limited to SparkSQL's query, any output from any language backend can be recognized and visualized.
+                  </p>
+                  <img src="assets/themes/dataswarm/img/screenshots/visualization.png" class="img-responsive img-centered" alt="">
+                  <hr>
+                  <p>
+                    Notebooks can be shared, save versions using gist and can be set to excecute at specific time recursively. Also paragraphs included on notebooks can be published into external web pages.
+                  </p>
+                  <hr>
+                  <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
               </div>
-          </div>
-          <div class="container">
-              <div class="row">
-                  <div class="col-lg-8 col-lg-offset-2">
-                      <div class="modal-body">
-                          <h2>DataSwarm Notebook</h2>
-                          <hr class="star-primary">
-                          <p>This is a multipurpose area: allows data scientists to perform analysis and proof of concepts quickly. They can also share results and save them for reuse. It is based on <a target="_black" href="https://zeppelin.incubator.apache.org/">Zeppelin Notebook</a>.</p>
-                          <img src="assets/themes/dataswarm/img/screenshots/notebook.png" class="img-responsive img-centered" alt="">
-                          <hr>
-                          <h3>Data visualization</h3>
-                          <p>
-                            Some basic charts are already included in DataSwarm. Visualizations are not limited to SparkSQL's query, any output from any language backend can be recognized and visualized.
-                          </p>
-                          <img src="assets/themes/dataswarm/img/screenshots/visualization.png" class="img-responsive img-centered" alt="">
-                          <hr>
-                          <p>
-                            Notebooks can be shared, save versions using gist and can be set to excecute at specific time recursively. Also paragraphs included on notebooks can be published into external web pages.
-                          </p>
-                          <hr>
-                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                      </div>
-                  </div>
-              </div>
+                
+            </div>
           </div>
       </div>
   </div>
