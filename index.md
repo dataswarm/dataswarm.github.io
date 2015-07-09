@@ -214,7 +214,6 @@ tagline: Less Development, More analysis!
               <h2>DataSwarm Notebook</h2>
             </div>
             <div class="modal-body">
-              <div class="modal-body">
                   <p>This is a multipurpose area: allows data scientists to perform analysis and proof of concepts quickly. They can also share results and save them for reuse. It is based on <a target="_black" href="https://zeppelin.incubator.apache.org/">Zeppelin Notebook</a>.</p>
                   <img src="assets/themes/dataswarm/img/screenshots/notebook.png" class="img-responsive img-centered" alt="">
                   <hr>
@@ -228,50 +227,35 @@ tagline: Less Development, More analysis!
                     Notebooks can be shared, save versions using gist and can be set to excecute at specific time recursively. Also paragraphs included on notebooks can be published into external web pages.
                   </p>
                   <hr>
-                  <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-              </div>
+                  <button type="button" class="btn btn-success" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                 
             </div>
           </div>
       </div>
   </div>
-  <div class="portfolio-modal modal fade" id="feature2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal fade" id="feature2" role="dialog">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-              <div class="lr">
-                  <div class="rl">
-                  </div>
-              </div>
-          </div>
-          <div class="container">
-              <div class="row">
-                  <div class="col-lg-8 col-lg-offset-2">
-                      <div class="modal-body">
-                          <h2>Infraestructure</h2>
-                          <hr class="star-primary">
-                          <p>DataSwarm allows the manipulation of infrastructure for massive data analysis. You can create, resize or remove clusters.</p>
-                          <img src="/assets/themes/dataswarm/img/screenshots/cluster.png" class="img-responsive img-centered" alt="">
-                          <hr>
-                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                      </div>
-                  </div>
-              </div>
-          </div>
+        <div class="modal-header" >
+          <h2>Infraestructure</h2>
+        </div>
+        <div class="modal-body">
+          <p>DataSwarm allows the manipulation of infrastructure for massive data analysis. You can create, resize or remove clusters.</p>
+          <img src="/assets/themes/dataswarm/img/screenshots/cluster.png" class="img-responsive img-centered" alt="">
+          <hr>
+          <button type="button" class="btn btn-success" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+        </div>
       </div>
+    </div>
   </div>
-  <div class="portfolio-modal modal fade" id="feature3" tabindex="-1" role="dialog" aria-hidden="true">
+  </div>
+  <div class="modal fade" id="feature3" role="dialog">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-              <div class="lr">
-                  <div class="rl">
-                  </div>
-              </div>
-          </div>
-          <div class="container">
-              <div class="row">
-                  <div class="col-lg-8 col-lg-offset-2">
-                      <div class="modal-body">
-                          <h2>Interpreters</h2>
+        <div class="modal-header" >
+          <h2>Interpreters</h2>
+        </div>
+                  <div class="modal-body">
                           <hr class="star-primary">
                           <p>DataSwarm offers the posibility of write code in diferent languages.</p>
                           <!-- <div class="row">
@@ -354,87 +338,62 @@ tagline: Less Development, More analysis!
                               </li>
                           </ul>
                           <hr>
-                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                          <button type="button" class="btn btn-success" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                       </div>
-                  </div>
-              </div>
+                  
           </div>
       </div>
   </div>
-  <div class="portfolio-modal modal fade" id="feature4" tabindex="-1" role="dialog" aria-hidden="true">
+
+  <div class="modal fade" id="feature4" role="dialog">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-              <div class="lr">
-                  <div class="rl">
-                  </div>
-              </div>
-          </div>
-          <div class="container">
-              <div class="row">
-                  <div class="col-lg-8 col-lg-offset-2">
-                      <div class="modal-body">
-                          <h2>Versions Control</h2>
-                          <hr class="star-primary">
-                          <p>Track your notebooks versions. Socialice (or not) your code, but has full control of it.</p>
-                          <img src="/assets/themes/dataswarm/img/screenshots/gist.png" class="img-responsive img-centered" alt="">
-                          <hr>
-                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                      </div>
-                  </div>
-              </div>
-          </div>
+        <div class="modal-header" >
+          <h2>Versions Control</h2>
+        </div>
+        <div class="modal-body">
+          <p>Track your notebooks versions. Socialice (or not) your code, but has full control of it.</p>
+          <img src="/assets/themes/dataswarm/img/screenshots/gist.png" class="img-responsive img-centered" alt="">
+          <hr>
+          <button type="button" class="btn btn-success" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+        </div>
       </div>
+    </div>
   </div>
-  <div class="portfolio-modal modal fade" id="feature5" tabindex="-1" role="dialog" aria-hidden="true">
+  
+  <div class="modal fade" id="feature5" role="dialog">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-              <div class="lr">
-                  <div class="rl">
-                  </div>
-              </div>
-          </div>
-          <div class="container">
-              <div class="row">
-                  <div class="col-lg-8 col-lg-offset-2">
-                      <div class="modal-body">
-                          <h2>Workflows</h2>
-                          <hr class="star-primary">
-                          <p>Notebooks can be save as Jobs</p>
-                          <img src="/assets/themes/dataswarm/img/screenshots/notebook.png" class="img-responsive img-centered" alt="">
-                          <hr>
-                          <p>Jobs can be reused into Luigi workflows</p>
-                          <img src="/assets/themes/dataswarm/img/screenshots/notebook.png" class="img-responsive img-centered" alt="">
-                          <hr>
-                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                      </div>
-                  </div>
-              </div>
-          </div>
+        <div class="modal-header" >
+          <h2>Workflows</h2>
+        </div>
+        <div class="modal-body">
+          <p>Notebooks can be save as Jobs</p>
+          <img src="/assets/themes/dataswarm/img/screenshots/notebook.png" class="img-responsive img-centered" alt="">
+          <hr>
+          <p>Jobs can be reused into Luigi workflows</p>
+          <img src="/assets/themes/dataswarm/img/screenshots/notebook.png" class="img-responsive img-centered" alt="">
+          <hr>
+          <button type="button" class="btn btn-success" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+        </div>
       </div>
+    </div>
   </div>
-  <div class="portfolio-modal modal fade" id="feature6" tabindex="-1" role="dialog" aria-hidden="true">
+  
+  <div class="modal fade" id="feature6" role="dialog">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-              <div class="lr">
-                  <div class="rl">
-                  </div>
-              </div>
-          </div>
-          <div class="container">
-              <div class="row">
-                  <div class="col-lg-8 col-lg-offset-2">
-                      <div class="modal-body">
-                          <h2>Data Science Tool</h2>
-                          <hr class="star-primary">
-                          <p>Dataswarm can be used as Data Analisys Tool. Allows create a Data Science team with several roles: data scientist, viewer. Notebooks can be shared between different users. </p>
-                          <img src="/assets/themes/dataswarm/img/screenshots/shared.png" class="img-responsive img-centered" alt="">
-                          <hr>
-                          <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                      </div>
-                  </div>
-              </div>
-          </div>
+        <div class="modal-header" >
+          <h2>Data Science Tool</h2>
+        </div>
+        <div class="modal-body">
+          <p>Dataswarm can be used as Data Analisys Tool. Allows create a Data Science team with several roles: data scientist, viewer. Notebooks can be shared between different users. </p>
+          <img src="/assets/themes/dataswarm/img/screenshots/shared.png" class="img-responsive img-centered" alt="">
+          <hr>
+          <button type="button" class="btn btn-success" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+        </div>
       </div>
+    </div>
   </div>
 </div>
 
