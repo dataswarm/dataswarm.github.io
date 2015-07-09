@@ -9,17 +9,16 @@ tagline: Less Development, More analysis!
 
   <!-- Header -->
   <header>
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-12">
-                  <img class="img-responsive" src="/assets/themes/dataswarm/img/profile.png" alt="">
-                  <div class="intro-text">
-                      <span class="name">DataSwarm</span>
-                      <hr class="star-primary"> </hr>
-                      <span class="skills">A web-based notebook for big data</span>
-                  </div>
-              </div>
-          </div>
+      <div class="container intro">
+          <h1>You build cool things<br> We connect them to the Internet</h1>
+    <p>Companies developing new Internet of Things products currently have a lot to do! <br> thethings.iO APIs free up your company to focus on what you do best, <br><b>build awesome new things</b>.</p>
+    <br><br>
+    <div class="buttons">
+      <a href="https://panel.thethings.io/#/register" title="Create a Free thethings.iO account" alt="Create a Free thethings.iO account" class="btn btn-primary buttons" data-gtme-category="activation" data-gtme-action="click-header" data-gtme-tag="create-account">
+        GET STARTED</a>
+      <a id="learn_more_button" href="#learn_more_section" title="Learn more about thethings.iO" alt="Learn More" class="btn btn-primary buttons" data-gtme-category="activation" data-gtme-action="click-header" data-gtme-tag="learn-more">
+        Learn More</a>
+    </div>
       </div>
   </header>
 <!-- Portfolio Grid Section -->
@@ -39,7 +38,7 @@ tagline: Less Development, More analysis!
                               <i>Notebook</i>
                           </div>
                       </div>
-                      <img src="assets/themes/dataswarm/img/portfolio/cake.png" class="img-responsive" alt="">
+                      <img src="assets/themes/dataswarm/img/features/zeppelin.png" class="img-responsive" alt="">
                   </a>
               </div>
               <div class="col-sm-4 portfolio-item">
@@ -49,7 +48,7 @@ tagline: Less Development, More analysis!
                               <i>Infraestructure</i>
                           </div>
                       </div>
-                      <img src="/assets/themes/dataswarm/img/portfolio/cabin.png" class="img-responsive" alt="">
+                      <img src="/assets/themes/dataswarm/img/features/cluster.png" class="img-responsive" alt="">
                   </a>
               </div>
               <div class="col-sm-4 portfolio-item">
@@ -59,7 +58,7 @@ tagline: Less Development, More analysis!
                               <i>Interpreters</i>
                           </div>
                       </div>
-                      <img src="/assets/themes/dataswarm/img/portfolio/circus.png" class="img-responsive" alt="">
+                      <img src="/assets/themes/dataswarm/img/features/interpreters.png" class="img-responsive" alt="">
                   </a>
               </div>
               <div class="col-sm-4 portfolio-item">
@@ -69,7 +68,7 @@ tagline: Less Development, More analysis!
                               <i>Versions Control</i>
                           </div>
                       </div>
-                      <img src="/assets/themes/dataswarm/img/portfolio/game.png" class="img-responsive" alt="">
+                      <img src="/assets/themes/dataswarm/img/features/github.png" class="img-responsive" alt="">
                   </a>
               </div>
               <div class="col-sm-4 portfolio-item">
@@ -89,7 +88,7 @@ tagline: Less Development, More analysis!
                               <i>Big Data Science Tool</i>
                           </div>
                       </div>
-                      <img src="/assets/themes/dataswarm/img/portfolio/submarine.png" class="img-responsive" alt="">
+                      <img src="/assets/themes/dataswarm/img/features/share.png" class="img-responsive" alt="">
                   </a>
               </div>
           </div>
@@ -146,7 +145,6 @@ tagline: Less Development, More analysis!
                   <div class="form-group">
                     <label class="control-label"></label>
                     <div class="">
-                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                       <button type="submit" class="btn btn-success" >Send <span class=""></span></button>
                     </div>
                   </div>          
