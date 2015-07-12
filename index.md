@@ -280,7 +280,7 @@ tagline: Less Development, More analysis!
                 </p>  
               </div>
               <div class="col-lg-6 ">
-                <img src="/assets/themes/dataswarm/img/screenshots/notebook.png" class="img-responsive img-centered" alt="">
+                <img src="/assets/themes/dataswarm/img/screenshots/multiple_language_backend.png" class="img-responsive img-centered" alt="">
               </div>
             </div>
           <div class="row">
@@ -294,7 +294,7 @@ tagline: Less Development, More analysis!
               </p>
             </div>
             <div class="col-lg-6">
-                <img src="/assets/themes/dataswarm/img/screenshots/notebook.png" class="img-responsive img-centered" alt="">
+                <img src="/assets/themes/dataswarm/img/screenshots/chart.png" class="img-responsive img-centered" alt="">
             </div>
           </div>
           <div class="row">
@@ -330,7 +330,7 @@ tagline: Less Development, More analysis!
         </div>
         <div class="modal-body">
           <p>Notebooks can be save as Jobs and those jobs can be used into a workflow</p>
-          <img src="/assets/themes/dataswarm/img/screenshots/notebook.png" class="img-responsive img-centered" alt="">
+          <img src="/assets/themes/dataswarm/img/screenshots/luigi-workflow.png" class="img-responsive img-centered" alt="">
           <hr>
           <button type="button" class="btn btn-success" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
         </div>
