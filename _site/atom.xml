@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>DataSwarm</title>
+ <link href="http://dataswarm.io/" rel="self"/>
+ <link href="http://dataswarm.io"/>
+ <updated>2015-07-12T16:56:49+02:00</updated>
+ <id>http://dataswarm.io</id>
+ <author>
+   <name>DataSwarm</name>
+   <email>viktor.manuel.garcia@gmail.com</email>
+ </author>
+
+ 
+ 
+</feed>
