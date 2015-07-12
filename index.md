@@ -250,92 +250,56 @@ tagline: Less Development, More analysis!
       <div class="modal-content">
         <div class="modal-header" >
           <h2>Interpreters</h2>
-        </div>
-                  <div class="modal-body">
-                          <p>DataSwarm offers the posibility of write code in diferent languages.</p>
-                          <!-- <div class="row">
-                            <div class="col-sm-3 portfolio-item">
-                              <p>Apache Spark</p>
-                              <img src="assets/themes/dataswarm/img/spark.png" class="img-responsive">
-                            </div>
-                            <div class="col-sm-3 portfolio-item">
-                              <p>Apache Hive</p>
-                              <img src="assets/themes/dataswarm/img/hadoop.png" class="img-responsive">
-                            </div>
-                            <div class="col-sm-3 portfolio-item">
-                              <p>Redshift</p>
-                              <img src="assets/themes/dataswarm/img/redshift.svg" class="img-responsive">
-                            </div>
-                            <div class="col-sm-3 portfolio-item">
-                              <p>Luigi</p>
-                              <img src="assets/themes/dataswarm/img/hadoop.png" class="img-responsive">
-                            </div>
-                            <div class="col-sm-3 portfolio-item">
-                              <p>Scala</p>
-                              <img src="assets/themes/dataswarm/img/scala.png" class="img-responsive">
-                            </div>
-                            <div class="col-sm-3 portfolio-item">
-                              <p>Angular</p>
-                              <img src="assets/themes/dataswarm/img/angular.jpg" class="img-responsive">
-                            </div>
-                            <div class="col-sm-3 portfolio-item">
-                              <p>Shell</p>
-                              <img src="assets/themes/dataswarm/img/shell.png" class="img-responsive">
-                            </div>
-                            <div class="col-sm-3 portfolio-item">
-                              <p>Infraestructure</p>
-                              <img src="assets/themes/dataswarm/img/hadoop.png" class="img-responsive">
-                            </div>
-                          </div> -->
-                          <div class="col-md-6">
-        <ul style="list-style-type: none;padding-left:10px;" >
-          <li style="font-size:20px; margin: 5px;"><img class="glyphicon" src="assets/themes/dataswarm/img/interpreters/spark.png"/> Apache Spark</li>
-          <li style="font-size:20px; margin: 5px;"><img class="glyphicon" src="assets/themes/dataswarm/img/interpreters/hadoop.png"/> Apache Hive</li>
-          <li style="font-size:20px; margin: 5px;"><img class="glyphicon" src="assets/themes/dataswarm/img/interpreters/redshift.svg" /></span> Redshift</li>
-          <li style="font-size:20px; margin: 5px;"><img class="glyphicon" src="assets/themes/dataswarm/img/interpreters/luigi.png" /></span> Luigi</li>
-        </ul>
-      </div>
-      <div class="col-md-6" style="margin-top: 75px;">
-        </br>
-        <ul style="list-style-type: none;padding-left:10px;" >
-          <li style="font-size:20px; margin: 5px;"><img class="glyphicon" src="assets/themes/dataswarm/img/interpreters/scala.png" /></span> Scala</li>
-          <li style="font-size:20px; margin: 5px;"><img class="glyphicon" src="assets/themes/dataswarm/img/interpreters/angular.jpg" /></span> Angular</li>
-          <li style="font-size:20px; margin: 5px;"><img class="glyphicon" src="assets/themes/dataswarm/img/interpreters/shell.png" /></span> Shell</li>
-          <li style="font-size:20px; margin: 5px;"></span> Comming more</li>
-        </ul>
-      </div>    
-      <hr>
+          </div>
+            <div class="modal-body">
+              <p>DataSwarm offers the posibility of write code in diferent languages. We extends Apache Zeppeling Multi Language Backend to includes more interpreters</p>
+              <hr>
+              <div class="container col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="container col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <img src="/assets/themes/dataswarm/img/screenshots/notebook.png" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="container col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <h4> Apache Zeppelin Multi Language Backend</h4>
+                  <p>
+                   Current languages included in the Zeppelin interpreter are: Scala(with Apache Spark), Python(with Apache Spark), SparkSQL, Hive, Markdown and Shell
+                  </p>  
+              </div>
+            </div>
+            <div class="container col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <hr>
+            </div>
+            <div class="container col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="container col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <h4> DataSwarm interpreters</h4>
+                <p>
+                  Includes Redshift querying, R language and Luigi workflows.  
+                </p>
+              </div>
+              <div class="container col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <img src="/assets/themes/dataswarm/img/screenshots/notebook.png" class="img-responsive img-centered" alt="">
+              </div>
+            </div>
 
-                          <ul class="list-inline item-details">
-                              <li>Client:
-                                  <img src="assets/themes/dataswarm/img/interpreters/spark.png" class="img-responsive">
-                              </li>
-                              <li>Date:
-                                  <img src="assets/themes/dataswarm/img/interpreters/hadoop.png" class="img-responsive">
-                              </li>
-                              <li>Service:
-                                  <img src="assets/themes/dataswarm/img/interpreters/redshift.svg" class="img-responsive">
-                              </li>
-                              <li>Client:
-                                  <img src="assets/themes/dataswarm/img/interpreters/hadoop.png" class="img-responsive">
-                              </li>
-                              <li>Date:
-                                  <img src="assets/themes/dataswarm/img/interpreters/scala.png" class="img-responsive">
-                              </li>
-                              <li>Service:
-                                  <img src="assets/themes/dataswarm/img/interpreters/angular.jpg" class="img-responsive">
-                              </li>
-                              <li>Client:
-                                  <img src="assets/themes/dataswarm/img/interpreters/shell.png" class="img-responsive">
-                              </li>
-                              <li>Date:
-                                  <img src="assets/themes/dataswarm/img/interpreters/hadoop.png" class="img-responsive">
-                              </li>
-                          </ul>
-                          <hr>
-                          <button type="button" class="btn btn-success" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                      </div>
-                  
+
+              <!-- <div class="container col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <ul class="row">
+                  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="assets/themes/dataswarm/img/interpreters/nuevo/spark.png/"> </li>
+                  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="assets/themes/dataswarm/img/interpreters/nuevo/angular.png/"> </li>
+                  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="assets/themes/dataswarm/img/interpreters/nuevo/r.png/"> </li>
+                  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="assets/themes/dataswarm/img/interpreters/nuevo/shell.png/"> </li>
+                  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="assets/themes/dataswarm/img/interpreters/nuevo/hive.png/"> </li>
+                  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="assets/themes/dataswarm/img/interpreters/nuevo/redshift.png/"> </li>
+                  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="assets/themes/dataswarm/img/interpreters/nuevo/tajo.png/"> </li>
+                  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="assets/themes/dataswarm/img/interpreters/nuevo/flink.png/"> </li>
+                  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="assets/themes/dataswarm/img/interpreters/scala.png/"> </li>
+                  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="assets/themes/dataswarm/img/interpreters/nuevo/lens.png/"> </li>
+                  <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><img src="assets/themes/dataswarm/img/interpreters/nuevo/ignite.png/"> </li>
+                </ul>
+              </div>  -->    
+            <div class="container col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <hr>
+            </div>
+            <button type="button" class="btn btn-success" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
           </div>
       </div>
   </div>
@@ -363,10 +327,7 @@ tagline: Less Development, More analysis!
           <h2>Workflows</h2>
         </div>
         <div class="modal-body">
-          <p>Notebooks can be save as Jobs</p>
-          <img src="/assets/themes/dataswarm/img/screenshots/notebook.png" class="img-responsive img-centered" alt="">
-          <hr>
-          <p>Jobs can be reused into Luigi workflows</p>
+          <p>Notebooks can be save as Jobs and those jobs can be used into a workflow</p>
           <img src="/assets/themes/dataswarm/img/screenshots/notebook.png" class="img-responsive img-centered" alt="">
           <hr>
           <button type="button" class="btn btn-success" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
