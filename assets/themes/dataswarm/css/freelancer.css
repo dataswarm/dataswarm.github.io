@@ -92,10 +92,16 @@ header {
     background: #4CAF50;
 }
 
-.buttons {
+.subscribe {
   text-align: center;
   margin-bottom: 100px;
   margin-top: 45px;
+}
+
+.form-inline .form-control {
+  display: inline-block;
+  width: 40%;
+  vertical-align: middle;
 }
 
 header img {
@@ -113,6 +119,10 @@ header .intro-text .name {
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+}
+
+.form-control, input {
+  border-width: 1px;
 }
 
 .navbar-brand {
@@ -301,8 +311,8 @@ section.success a.active {
 
 .btn-success {
   color: #ffffff;
-  background-color: #4CAF50;
-  border-color: #4CAF50;
+  background-color: #409343;
+  border-color: #409343;
 }
 
 .btn-primary {
@@ -312,6 +322,12 @@ section.success a.active {
 }
 
 .btn-success:hover {
+  color: #ffffff;
+  background-color: #25922a;
+  border-color: #25922a;
+}
+
+.btn-success:focus {
   color: #ffffff;
   background-color: #25922a;
   border-color: #25922a;
