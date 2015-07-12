@@ -214,18 +214,14 @@ tagline: Less Development, More analysis!
               <h2>DataSwarm Notebook</h2>
             </div>
             <div class="modal-body">
-                  <p>This is a multipurpose area: allows data scientists to perform analysis and proof of concepts quickly. They can also share results and save them for reuse. It is based on <a target="_black" href="https://zeppelin.incubator.apache.org/">Zeppelin Notebook</a>.</p>
+                  <p>
+                  This is a multipurpose area: allows data scientists to perform analysis and proof of concepts quickly. They can also share results and save them for reuse. It is based on <a target="_black" href="https://zeppelin.incubator.apache.org/">Zeppelin Notebook</a>.
+                  <br>
+                  Some basic charts are already included in DataSwarm. Visualizations are not limited to SparkSQL's query, any output from any language backend can be recognized and visualized.
+                  <br>
+                  Notebooks can be shared, save versions using gist and can be set to excecute at specific time recursively. Also paragraphs included on notebooks can be published into external web pages and can be saves as jobs.
+                  </p>
                   <img src="assets/themes/dataswarm/img/screenshots/notebook.png" class="img-responsive img-centered" alt="">
-                  <hr>
-                  <h3>Data visualization</h3>
-                  <p>
-                    Some basic charts are already included in DataSwarm. Visualizations are not limited to SparkSQL's query, any output from any language backend can be recognized and visualized.
-                  </p>
-                  <img src="assets/themes/dataswarm/img/screenshots/visualization.png" class="img-responsive img-centered" alt="">
-                  <hr>
-                  <p>
-                    Notebooks can be shared, save versions using gist and can be set to excecute at specific time recursively. Also paragraphs included on notebooks can be published into external web pages.
-                  </p>
                   <hr>
                   <button type="button" class="btn btn-success" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                 
@@ -238,12 +234,12 @@ tagline: Less Development, More analysis!
       <div class="modal-content">
         <div class="modal-header" >
           <h2>Infraestructure</h2>
-          <button type="button" class="btn btn-success" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
         </div>
         <div class="modal-body">
           <p>DataSwarm allows the manipulation of infrastructure for massive data analysis. You can create, resize or remove clusters.</p>
           <img src="/assets/themes/dataswarm/img/screenshots/cluster.png" class="img-responsive img-centered" alt="">
           <hr>
+          <button type="button" class="btn btn-success" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
         </div>
       </div>
     </div>
