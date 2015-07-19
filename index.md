@@ -179,7 +179,7 @@ tagline: Less Development, More analysis!
                               <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
                           </li>
                           <li>
-                              <a href="https://twitter.com/DataswarmTeam" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                              <a href="https://twitter.com/DataswarmTeam" target="_black" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
                           </li>
                           <li>
                               <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
