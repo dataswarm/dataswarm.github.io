@@ -15,7 +15,7 @@ tagline: Less Development, More analysis!
         <br><br>
         <div class="subscribe">
           <div class="form-group form-inline">
-            <form method="post" action=" https://getsimpleform.com/messages?api_token=4e792fc042e7255a44fb3fc43fcf6aaf">
+            <form method="post" action="https://getsimpleform.com/messages?form_api_token=f7add224f1eb8394aacc5397b46de1c7">
               <input type="text" class="form-control" name="email" placeholder="Your email" required>
               <button class="btn btn-success" type="submit">Notify me when available</button>
             </form>
@@ -127,7 +127,7 @@ tagline: Less Development, More analysis!
           </div>
           <div class="row">
               <div class="col-lg-8 col-lg-offset-2">
-                <form action=" https://getsimpleform.com/messages?api_token=4e792fc042e7255a44fb3fc43fcf6aaf" method="post">
+                <form action="https://getsimpleform.com/messages?form_api_token=f7add224f1eb8394aacc5397b46de1c7" method="post">
 
                   <div class="form-group">
                     <div class="row">
