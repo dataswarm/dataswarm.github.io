@@ -15,7 +15,7 @@ tagline: Less Development, More analysis!
         <br><br>
         <div class="subscribe">
           <div class="form-group form-inline">
-            <form method="post" action="https://getsimpleform.com/messages?form_api_token=f7add224f1eb8394aacc5397b46de1c7">
+            <form action="https://getsimpleform.com/messages?form_api_token=f7add224f1eb8394aacc5397b46de1c7" method="post">
               <input type="text" class="form-control" name="email" placeholder="Your email" required>
               <button class="btn btn-success" type="submit">Notify me when available</button>
             </form>
