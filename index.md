@@ -127,7 +127,7 @@ tagline: Less Development, More analysis!
           </div>
           <div class="row">
               <div class="col-lg-8 col-lg-offset-2">
-                <form action="https://getsimpleform.com/messages?form_api_token=9be831dbaa768d762c67b4c07b3b3bfc" method="post">
+                <form action="https://getsimpleform.com/instructions?api_token=4e792fc042e7255a44fb3fc43fcf6aaf" method="post">
 
                   <div class="form-group">
                     <div class="row">
