@@ -11,7 +11,7 @@ tagline: Less Development, More analysis!
   <header>
       <div class="container intro">
         <h1>Needs to develop a Data solution for your business? <br> DataSwarm provides the easy way to do it</h1>
-        <p>DataSwarm offers a distribution of Apache Zeppelin Notebook with more interpreters and clusters managment among other features that provides data scientists the right tool to do big data analysis for their business</b>.</p>
+        <p>DataSwarm offers a distribution of Apache Zeppelin Notebook with more interpreters and clusters management among other features that provides data scientists the right tool to do big data analysis for their business</b>.</p>
         <br><br>
         <div class="subscribe col-lg-8 col-lg-offset-2">
           <div class="form-group form-inline">
@@ -110,7 +110,7 @@ tagline: Less Development, More analysis!
           <div class="row">
               <div class="col-lg-8 col-lg-offset-2">
                   <h3>DataSwarm</h3>
-                  <p>The aim of DataSwarm is provide a tool to make big data analysis. User can easily create, resize or remove clusters for processing data and combine several languajes to analize and visualise data. Also they can share their work and create  workflows to be execute when they want.</p>
+                  <p>The aim of DataSwarm is provide a big data analysis tool. Users can easily create, resize or remove clusters for processing data and combine several languages to analyze and visualize data. Also they can share their work and create workflows to be executed when they want.</p>
               </div>
           </div>
       </div>
@@ -225,7 +225,7 @@ tagline: Less Development, More analysis!
                   <p>
                   This is a multipurpose area: allows data scientists to perform analysis and proof of concepts quickly. They can also share results and save them for reuse. It is based on <a target="_black" href="https://zeppelin.incubator.apache.org/">Zeppelin Notebook</a>.
                   <br>
-                  Notebooks can be shared, save versions using gist and can be set to excecute at specific time recursively. Also paragraphs included on notebooks can be published into external web pages and can be saves as jobs.
+                  Notebooks can be shared, save versions using gist and can be set to excecute at specific time recursively. Also paragraphs included on notebooks can be published into external web pages and can be saved as jobs.
                   </p>
                   <img src="assets/themes/dataswarm/img/screenshots/notebook.png" class="img-responsive img-centered" alt="">
                   <hr>
@@ -317,7 +317,7 @@ tagline: Less Development, More analysis!
           <h2>Workflows</h2>
         </div>
         <div class="modal-body">
-          <p>Notebooks can be save as Jobs and those jobs can be used into a workflow</p>
+          <p>Notebooks can be saved as Jobs and those jobs can be used into a workflow</p>
           <img src="/assets/themes/dataswarm/img/screenshots/luigi-workflow.png" class="img-responsive img-centered" alt="">
           <hr>
           <button type="button" class="btn btn-success" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
